@@ -1,0 +1,22 @@
+namespace Target4
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            /*
+             * Primeiro acenderia os dois primeiros interruptores, iria até a primeira sala da lampada, caso esteja acessa é um dos dois primeiros, caso não, é o terceiro.
+             * Dentro da opção de ser o terceiro eu apenas desligaria o primei e iria até a segunda sala, caso esteja acessa o segundo é referente a segenda sala, caso não é o primeiro.
+             * 
+             * Agora dentro da opção de ao ligar os dois e a luz da primeira sala estar acesa se tornaria impossivel finalizar tal situação com apenas duas idas.
+             * 
+             * Utilizando de outro recurso externo como a temperatura da lampada a solução possivel seria a de esperar uma das lampadas esquentarem com o interruptor um ligado,
+             * após isso acender o segundo e entrar na sala 1, caso esteja quente, é o primeiro, se estiver fria e apagada, o terceiro e acessa o segundo.
+             * 
+             * Após isso será necessárioa apenas acender um dos interruptores restantes e se entrar na segunda sala, assim solucionando a situação.
+             * 
+             */
+        }
+    }
+}
+
