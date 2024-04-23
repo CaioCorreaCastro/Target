@@ -1,0 +1,15 @@
+namespace Target3
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // A) 9
+            // B) 128
+            // C) 49
+            // D) 100
+            // E) 13
+            // F) 200
+        }
+    }
+}
