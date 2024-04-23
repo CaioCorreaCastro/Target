@@ -1,0 +1,21 @@
+namespace Target2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] fibo = new int[2] {0, 1} ; 
+            Console.Write("Digite um numero para saber se o mesmo está na sequencia de Fibonacci: ");
+            int n = int.Parse(Console.ReadLine());
+            int aux = 0;
+            do
+            {
+                aux = fibo[1];
+                fibo[1] += fibo[0];
+                fibo[0] = aux;
+                if (n == fibo[0] || n == fibo[1] || n == 0)
+                    Console.WriteLine("Este numero existe em Fibonacci!");
+            } while (n > fibo[1]);
+        }
+    }
+}
