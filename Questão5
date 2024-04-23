@@ -1,0 +1,16 @@
+namespace Target5
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Entre com uma string: ");
+            string invertida = Console.ReadLine();
+
+            for (int i = (invertida.Length - 1); i >= 0; i--)
+            {
+                Console.Write(invertida[i]);
+            }
+        }
+    }
+}
